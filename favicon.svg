@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <style>.f{fill:#111;stroke:#111}.e{fill:#fff}@media (prefers-color-scheme:dark){.f{fill:#f1f0ec;stroke:#f1f0ec}.e{fill:#0e0e0e}}</style>
+  <g class="f" stroke-linecap="round" stroke-width="5">
+    <path stroke="none" d="M14 42 C14 24 22 13 32 13 C42 13 50 24 50 42 Z"/>
+    <path fill="none" d="M18.5 41 q-1 9 -6 12"/>
+    <path fill="none" d="M27 42 q1 9 -3 13"/>
+    <path fill="none" d="M37 42 q-1 9 3 13"/>
+    <path fill="none" d="M45.5 41 q1 9 6 12"/>
+  </g>
+  <circle class="e" cx="32" cy="29" r="8.5"/>
+  <ellipse class="f" stroke="none" cx="32" cy="29" rx="2.4" ry="6"/>
+</svg>

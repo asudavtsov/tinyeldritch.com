@@ -1,0 +1,3 @@
+# app-ads.txt for tinyeldritch.com
+# Replace the line below with the one AdMob shows you (Apps > View all apps > app-ads.txt).
+# google.com, pub-0000000000000000, DIRECT, f08c47fec0942fa0
