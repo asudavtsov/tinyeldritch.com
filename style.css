@@ -131,4 +131,5 @@ html { scroll-behavior: smooth; }
 :target .label a::after,
 .doc h2:target a::after { opacity: 1; }
 
-.project + .project { margin-top: 32px; }
+.project + .project,
+p + .project { margin-top: 32px; }
