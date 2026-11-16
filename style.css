@@ -110,3 +110,25 @@ footer nav { margin-top: 14px; display: flex; gap: 20px; }
 .doc .updated { color: var(--muted); margin: 0 0 32px; }
 .doc ul { padding-left: 22px; }
 .doc li { margin-bottom: 6px; }
+
+/* Section anchors */
+html { scroll-behavior: smooth; }
+@media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } }
+[id] { scroll-margin-top: 24px; }
+
+.label a,
+.doc h2 a { text-decoration: none; }
+.label a::after,
+.doc h2 a::after {
+  content: " #";
+  opacity: 0;
+  transition: opacity .15s;
+}
+.label a:hover::after,
+.label a:focus-visible::after,
+.doc h2 a:hover::after,
+.doc h2 a:focus-visible::after { opacity: 1; }
+:target .label a::after,
+.doc h2:target a::after { opacity: 1; }
+
+.project + .project { margin-top: 32px; }
